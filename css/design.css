@@ -221,13 +221,13 @@ hr {
 /* --END ABOUT SECTION STYLING-- */
 
 
-/* --BEGIN WORK SECTION STYLING-- */
+/* --BEGIN project SECTION STYLING-- */
 
-#work-section h2 {
+#project-section h2 {
     padding-bottom: 2em;
 }
 
-.work-info h4 {
+.project-info h4 {
     margin-bottom: 15px;
     font-family: 'Oswald', sans-serif;
 }
@@ -236,24 +236,24 @@ hr {
     display: inline-block;
 }
 
-.work-buttons {
+.project-buttons {
     padding-top: 8px;
 }
 
-.work-buttons .btn {
+.project-buttons .btn {
     border-radius: 24px;
     padding: 4px 20px;
     display: inline-block;
 }
 
-.work-buttons i {
+.project-buttons i {
     padding-right: 5px;
 }
 
 
-/* Hover.css for custom :hover states on buttons in work section */
+/* Hover.css for custom :hover states on buttons in project section */
 
-.work-buttons button {
+.project-buttons button {
     background: none;
     color: black;
     font-family: 'Roboto', sans-serif;
@@ -269,7 +269,7 @@ hr {
     overflow: hidden;
 }
 
-.work-buttons button:hover {
+.project-buttons button:hover {
     background-color: #697082;
     color: white;
     transition-duration: .3s;
@@ -338,7 +338,7 @@ hr {
 }
 
 
-/* --END WORK SECTION STYLING-- */
+/* --END project SECTION STYLING-- */
 
 
 /* --BEGIN CONTACT SECTION STYLING-- */
@@ -566,13 +566,15 @@ contact-button:after {
 }
 
 
-/* Work */
+/* project */
 
 @media (max-width: 767px) {
-    .work-buttons button {
+    .project
+    -buttons button {
         margin-top: 8px;
     }
-    #work-section h2 {
+    #project
+    -section h2 {
         padding-bottom: 1em;
     }
 }
